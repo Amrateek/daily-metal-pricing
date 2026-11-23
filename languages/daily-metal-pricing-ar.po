@@ -1,0 +1,390 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daily Metal Pricing for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Amrateek/daily-metal-pricing/issues\n"
+"POT-Creation-Date: 2026-11-23T14:01:31+00:00\n"
+"PO-Revision-Date: 2026-11-23T14:01:31+00:00\n"
+"Last-Translator: Amr Ateek\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5);\n"
+"X-Domain: daily-metal-pricing\n"
+
+#. Plugin Name of the plugin
+#: daily-metal-pricing.php
+msgid "Daily Metal Pricing for WooCommerce"
+msgstr "تسعير المعادن اليومي لووكومرس"
+
+#. Description of the plugin
+#: daily-metal-pricing.php
+msgid "Price gold, silver and platinum products from today's metal price. Enter the price per gram once, and every product is repriced from its weight, purity and making charges."
+msgstr "سعّر منتجات الذهب والفضة والبلاتين حسب سعر المعدن اليوم. أدخل سعر الجرام مرة واحدة، فيُعاد تسعير كل منتج حسب وزنه وعياره ومصنعيته."
+
+#. Author of the plugin
+#: daily-metal-pricing.php
+msgid "Amr Ateek"
+msgstr "عمرو عتيق"
+
+#: daily-metal-pricing.php:87
+msgid "Daily Metal Pricing needs WooCommerce to be installed and active."
+msgstr "تسعير المعادن اليومي يحتاج إلى تثبيت ووكومرس وتفعيله."
+
+#: includes/class-dmp-product-fields.php:46 includes/class-dmp-product-fields.php:99
+msgid "Metal pricing"
+msgstr "تسعير المعدن"
+
+#: includes/class-dmp-product-fields.php:66
+msgid "Fill these in and the regular price is set for you from today's metal price. Leave Metal empty to price this product by hand."
+msgstr "املأ هذه الحقول وسيُحسب السعر العادي تلقائيًا من سعر المعدن اليوم. اترك حقل المعدن فارغًا لتسعير هذا المنتج يدويًا."
+
+#: includes/class-dmp-product-fields.php:67
+msgid "These are the defaults for every variation. Each variation can override any field, for example its own weight."
+msgstr "هذه هي القيم الافتراضية لكل الأشكال. ويمكن لكل شكل أن يحدد قيمته الخاصة لأي حقل، مثل وزنه."
+
+#: includes/class-dmp-product-fields.php:100
+msgid "Empty fields use the product's Metal pricing tab."
+msgstr "الحقول الفارغة تأخذ قيمتها من تبويب تسعير المعدن في المنتج."
+
+#. translators: %s: formatted price.
+#: includes/class-dmp-product-fields.php:109
+#, php-format
+msgid "Price from today's metal price: %s"
+msgstr "السعر حسب سعر المعدن اليوم: %s"
+
+#. translators: %s: metal name, e.g. Gold.
+#: includes/class-dmp-product-fields.php:149
+#, php-format
+msgid "Same as product (%s)"
+msgstr "مثل المنتج (%s)"
+
+#: includes/class-dmp-product-fields.php:150
+msgid "Same as product"
+msgstr "مثل المنتج"
+
+#: includes/class-dmp-product-fields.php:152
+msgid "Not priced by metal"
+msgstr "غير مسعّر حسب المعدن"
+
+#: includes/class-dmp-product-fields.php:159 includes/class-dmp-settings.php:388
+msgid "Metal"
+msgstr "المعدن"
+
+#: includes/class-dmp-product-fields.php:168
+msgid "Weight (g)"
+msgstr "الوزن (جرام)"
+
+#: includes/class-dmp-product-fields.php:169
+msgid "Weight of the metal in grams."
+msgstr "وزن المعدن بالجرام."
+
+#: includes/class-dmp-product-fields.php:172
+msgid "Purity (per 1000)"
+msgstr "العيار (من 1000)"
+
+#: includes/class-dmp-product-fields.php:173
+msgid "Parts per thousand, e.g. 875 for 21K gold or 925 for sterling silver."
+msgstr "عدد الأجزاء من ألف، مثل 875 لذهب عيار 21 أو 925 للفضة الاسترليني."
+
+#. translators: %s: currency symbol.
+#: includes/class-dmp-product-fields.php:178
+#, php-format
+msgid "Making charge per gram (%s)"
+msgstr "المصنعية للجرام (%s)"
+
+#: includes/class-dmp-product-fields.php:179
+msgid "Workmanship cost added for each gram."
+msgstr "تكلفة الصنعة المضافة على كل جرام."
+
+#. translators: %s: currency symbol.
+#: includes/class-dmp-product-fields.php:183
+#, php-format
+msgid "Fixed charge (%s)"
+msgstr "رسوم ثابتة (%s)"
+
+#: includes/class-dmp-product-fields.php:184
+msgid "Added once per item, e.g. for stones, chain or packaging."
+msgstr "تُضاف مرة واحدة لكل قطعة، مثل الأحجار أو السلسلة أو التغليف."
+
+#: includes/class-dmp-product-fields.php:187
+msgid "Markup (%)"
+msgstr "هامش الربح (%)"
+
+#: includes/class-dmp-product-fields.php:188
+msgid "Percentage added on top of everything else."
+msgstr "نسبة مئوية تُضاف فوق كل ما سبق."
+
+#. translators: %s: link to the metal prices settings page.
+#: includes/class-dmp-product-fields.php:248
+#, php-format
+msgid "Set today's price for this metal on the <a href=\"%s\">Metal prices</a> page to see the calculated price."
+msgstr "حدّد سعر هذا المعدن اليوم من صفحة <a href=\"%s\">أسعار المعادن</a> لترى السعر المحسوب."
+
+#: includes/class-dmp-product-fields.php:257
+msgid "Metal value"
+msgstr "قيمة المعدن"
+
+#: includes/class-dmp-product-fields.php:258
+msgid "Making charge"
+msgstr "المصنعية"
+
+#: includes/class-dmp-product-fields.php:259
+msgid "Fixed charge"
+msgstr "الرسوم الثابتة"
+
+#: includes/class-dmp-product-fields.php:260
+msgid "Markup"
+msgstr "هامش الربح"
+
+#: includes/class-dmp-product-fields.php:269
+msgid "Price (after rounding)"
+msgstr "السعر (بعد التقريب)"
+
+#: includes/class-dmp-product-fields.php:271
+msgid "This is saved as the regular price every time you update the product or change the metal price."
+msgstr "يُحفظ هذا السعر كسعر عادي في كل مرة تحدّث فيها المنتج أو تغيّر سعر المعدن."
+
+#: includes/class-dmp-settings.php:37 includes/class-dmp-settings.php:38 includes/class-dmp-settings.php:53 includes/class-dmp-settings.php:205
+msgid "Metal prices"
+msgstr "أسعار المعادن"
+
+#: includes/class-dmp-settings.php:145
+msgid "You are not allowed to change metal prices."
+msgstr "ليس لديك صلاحية تغيير أسعار المعادن."
+
+#: includes/class-dmp-settings.php:209
+msgid "Enter today's price per gram of pure metal. Every product with Metal pricing filled in is repriced from it."
+msgstr "أدخل سعر جرام المعدن الخالص اليوم. سيُعاد تسعير كل منتج تم ملء بيانات تسعير المعدن فيه."
+
+#: includes/class-dmp-settings.php:216
+msgid "Today's prices"
+msgstr "أسعار اليوم"
+
+#. translators: %s: currency symbol.
+#: includes/class-dmp-settings.php:227
+#, php-format
+msgid "%s per gram"
+msgstr "%s للجرام"
+
+#. translators: %s: date and time.
+#: includes/class-dmp-settings.php:231
+#, php-format
+msgid "Last changed %s"
+msgstr "آخر تغيير %s"
+
+#: includes/class-dmp-settings.php:238
+msgid "Use the price of pure metal (999 / 24K). Purity is applied per product. You can type numbers with Arabic digits."
+msgstr "استخدم سعر المعدن الخالص (999 / عيار 24). يُطبَّق العيار لكل منتج على حدة. يمكنك كتابة الأرقام بالأرقام العربية."
+
+#: includes/class-dmp-settings.php:242
+msgid "Pricing rules"
+msgstr "قواعد التسعير"
+
+#: includes/class-dmp-settings.php:245
+msgid "Round prices to"
+msgstr "قرّب الأسعار إلى"
+
+#: includes/class-dmp-settings.php:247
+msgid "Rounding direction"
+msgstr "اتجاه التقريب"
+
+#: includes/class-dmp-settings.php:248
+msgid "nearest"
+msgstr "الأقرب"
+
+#: includes/class-dmp-settings.php:249
+msgid "always up"
+msgstr "لأعلى دائمًا"
+
+#: includes/class-dmp-settings.php:251
+msgid "For example 5 rounds 1,237 to 1,235 (or up to 1,240). Leave empty for no rounding."
+msgstr "مثلًا 5 تقرّب 1,237 إلى 1,235 (أو لأعلى إلى 1,240). اتركه فارغًا لعدم التقريب."
+
+#: includes/class-dmp-settings.php:254
+msgid "Sale prices"
+msgstr "أسعار التخفيض"
+
+#: includes/class-dmp-settings.php:256
+msgid "Keep them when repricing"
+msgstr "احتفظ بها عند إعادة التسعير"
+
+#: includes/class-dmp-settings.php:257
+msgid "Remove them when repricing"
+msgstr "احذفها عند إعادة التسعير"
+
+#: includes/class-dmp-settings.php:259
+msgid "A sale price that ends up at or above the new regular price is always removed."
+msgstr "سعر التخفيض الذي يصبح مساويًا للسعر العادي الجديد أو أعلى منه يُحذف دائمًا."
+
+#: includes/class-dmp-settings.php:266
+msgid "Save and update product prices"
+msgstr "حفظ وتحديث أسعار المنتجات"
+
+#: includes/class-dmp-settings.php:268
+msgid "Save without updating products"
+msgstr "حفظ بدون تحديث المنتجات"
+
+#: includes/class-dmp-settings.php:295
+msgid "Settings saved. Product prices were not changed."
+msgstr "تم حفظ الإعدادات. لم تتغير أسعار المنتجات."
+
+#. translators: %d: number of products.
+#: includes/class-dmp-settings.php:299
+#, php-format
+msgid "Settings saved. %d product is being repriced in the background."
+msgid_plural "Settings saved. %d products are being repriced in the background."
+msgstr[0] "تم حفظ الإعدادات. لا توجد منتجات تتم إعادة تسعيرها."
+msgstr[1] "تم حفظ الإعدادات. تتم إعادة تسعير منتج واحد في الخلفية."
+msgstr[2] "تم حفظ الإعدادات. تتم إعادة تسعير منتجين في الخلفية."
+msgstr[3] "تم حفظ الإعدادات. تتم إعادة تسعير %d منتجات في الخلفية."
+msgstr[4] "تم حفظ الإعدادات. تتم إعادة تسعير %d منتجًا في الخلفية."
+msgstr[5] "تم حفظ الإعدادات. تتم إعادة تسعير %d منتج في الخلفية."
+
+#: includes/class-dmp-settings.php:303
+msgid "Settings saved. No products use metal pricing yet. Open a product and fill in its Metal pricing tab."
+msgstr "تم حفظ الإعدادات. لا توجد منتجات تستخدم تسعير المعدن بعد. افتح أي منتج واملأ تبويب تسعير المعدن."
+
+#. translators: 1: number of prices that changed, 2: number of products checked.
+#: includes/class-dmp-settings.php:307
+#, php-format
+msgid "Settings saved. %1$d price changed (%2$d products checked)."
+msgid_plural "Settings saved. %1$d prices changed (%2$d products checked)."
+msgstr[0] "تم حفظ الإعدادات. لم يتغير أي سعر. عدد المنتجات التي تمت مراجعتها: %2$d."
+msgstr[1] "تم حفظ الإعدادات. تغيّر سعر واحد. عدد المنتجات التي تمت مراجعتها: %2$d."
+msgstr[2] "تم حفظ الإعدادات. تغيّر سعران. عدد المنتجات التي تمت مراجعتها: %2$d."
+msgstr[3] "تم حفظ الإعدادات. تغيّرت %1$d أسعار. عدد المنتجات التي تمت مراجعتها: %2$d."
+msgstr[4] "تم حفظ الإعدادات. تغيّر %1$d سعرًا. عدد المنتجات التي تمت مراجعتها: %2$d."
+msgstr[5] "تم حفظ الإعدادات. تغيّر %1$d سعر. عدد المنتجات التي تمت مراجعتها: %2$d."
+
+#: includes/class-dmp-settings.php:329
+msgid "Last update"
+msgstr "آخر تحديث"
+
+#. translators: 1: products done, 2: total products.
+#: includes/class-dmp-settings.php:335
+#, php-format
+msgid "Repricing in the background: %1$d of %2$d products done. Refresh this page to check progress."
+msgstr "إعادة التسعير جارية في الخلفية: تم الانتهاء من %1$d من أصل %2$d. حدّث الصفحة لمتابعة التقدم."
+
+#. translators: 1: date and time, 2: number of prices that changed, 3: number of products checked.
+#: includes/class-dmp-settings.php:344
+#, php-format
+msgid "%1$s — %2$d price changed (%3$d products checked)."
+msgid_plural "%1$s — %2$d prices changed (%3$d products checked)."
+msgstr[0] "%1$s — لم يتغير أي سعر. عدد المنتجات التي تمت مراجعتها: %3$d."
+msgstr[1] "%1$s — تغيّر سعر واحد. عدد المنتجات التي تمت مراجعتها: %3$d."
+msgstr[2] "%1$s — تغيّر سعران. عدد المنتجات التي تمت مراجعتها: %3$d."
+msgstr[3] "%1$s — تغيّرت %2$d أسعار. عدد المنتجات التي تمت مراجعتها: %3$d."
+msgstr[4] "%1$s — تغيّر %2$d سعرًا. عدد المنتجات التي تمت مراجعتها: %3$d."
+msgstr[5] "%1$s — تغيّر %2$d سعر. عدد المنتجات التي تمت مراجعتها: %3$d."
+
+#: includes/class-dmp-settings.php:360
+msgid "How prices are calculated"
+msgstr "كيف تُحسب الأسعار"
+
+#: includes/class-dmp-settings.php:362
+msgid "Metal value = price per gram × weight × purity ÷ 1000"
+msgstr "قيمة المعدن = سعر الجرام × الوزن × العيار ÷ 1000"
+
+#: includes/class-dmp-settings.php:363
+msgid "Add the making charge (per gram × weight) and the fixed charge"
+msgstr "أضف المصنعية (للجرام × الوزن) والرسوم الثابتة"
+
+#: includes/class-dmp-settings.php:364
+msgid "Add the markup percentage"
+msgstr "أضف نسبة هامش الربح"
+
+#: includes/class-dmp-settings.php:365
+msgid "Round, then save as the regular price"
+msgstr "قرّب السعر، ثم احفظه كسعر عادي"
+
+#: includes/class-dmp-settings.php:367
+msgid "Example: 5 g of 21K gold (purity 875) at 4,000 per gram is 17,500. With a making charge of 150 per gram (750) and 10% markup, the price is 20,075."
+msgstr "مثال: 5 جرام ذهب عيار 21 (875) بسعر 4,000 للجرام = 17,500. مع مصنعية 150 للجرام (750) وهامش ربح 10%، يصبح السعر 20,075."
+
+#: includes/class-dmp-settings.php:385
+msgid "Price history"
+msgstr "سجل الأسعار"
+
+#: includes/class-dmp-settings.php:387
+msgid "Date"
+msgstr "التاريخ"
+
+#: includes/class-dmp-settings.php:389
+msgid "Old price"
+msgstr "السعر القديم"
+
+#: includes/class-dmp-settings.php:390
+msgid "New price"
+msgstr "السعر الجديد"
+
+#: includes/class-dmp-settings.php:391
+msgid "Changed by"
+msgstr "بواسطة"
+
+#: includes/class-dmp-settings.php:396
+msgid "System"
+msgstr "النظام"
+
+#: includes/functions.php:17
+msgid "Gold"
+msgstr "ذهب"
+
+#: includes/functions.php:18
+msgid "Silver"
+msgstr "فضة"
+
+#: includes/functions.php:19
+msgid "Platinum"
+msgstr "بلاتين"
+
+#: includes/functions.php:33
+msgid "24K"
+msgstr "عيار 24"
+
+#: includes/functions.php:34
+msgid "22K"
+msgstr "عيار 22"
+
+#: includes/functions.php:35
+msgid "21K"
+msgstr "عيار 21"
+
+#: includes/functions.php:36
+msgid "18K"
+msgstr "عيار 18"
+
+#: includes/functions.php:37
+msgid "14K"
+msgstr "عيار 14"
+
+#: includes/functions.php:38
+msgid "10K"
+msgstr "عيار 10"
+
+#: includes/functions.php:41
+msgid "Fine silver"
+msgstr "فضة خالصة"
+
+#: includes/functions.php:42
+msgid "Sterling silver"
+msgstr "فضة استرليني"
+
+#: includes/functions.php:43
+msgid "Coin silver"
+msgstr "فضة العملات"
+
+#: includes/functions.php:44
+msgid "Silver 800"
+msgstr "فضة 800"
+
+#: includes/functions.php:47
+msgid "Platinum 950"
+msgstr "بلاتين 950"
+
+#: includes/functions.php:48
+msgid "Platinum 900"
+msgstr "بلاتين 900"

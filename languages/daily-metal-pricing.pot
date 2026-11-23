@@ -1,0 +1,376 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Daily Metal Pricing for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Amrateek/daily-metal-pricing/issues\n"
+"POT-Creation-Date: 2026-11-23T14:01:31+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: daily-metal-pricing\n"
+
+#. Plugin Name of the plugin
+#: daily-metal-pricing.php
+msgid "Daily Metal Pricing for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: daily-metal-pricing.php
+msgid "Price gold, silver and platinum products from today's metal price. Enter the price per gram once, and every product is repriced from its weight, purity and making charges."
+msgstr ""
+
+#. Author of the plugin
+#: daily-metal-pricing.php
+msgid "Amr Ateek"
+msgstr ""
+
+#: daily-metal-pricing.php:87
+msgid "Daily Metal Pricing needs WooCommerce to be installed and active."
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:46 includes/class-dmp-product-fields.php:99
+msgid "Metal pricing"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:66
+msgid "Fill these in and the regular price is set for you from today's metal price. Leave Metal empty to price this product by hand."
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:67
+msgid "These are the defaults for every variation. Each variation can override any field, for example its own weight."
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:100
+msgid "Empty fields use the product's Metal pricing tab."
+msgstr ""
+
+#. translators: %s: formatted price.
+#: includes/class-dmp-product-fields.php:109
+#, php-format
+msgid "Price from today's metal price: %s"
+msgstr ""
+
+#. translators: %s: metal name, e.g. Gold.
+#: includes/class-dmp-product-fields.php:149
+#, php-format
+msgid "Same as product (%s)"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:150
+msgid "Same as product"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:152
+msgid "Not priced by metal"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:159 includes/class-dmp-settings.php:388
+msgid "Metal"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:168
+msgid "Weight (g)"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:169
+msgid "Weight of the metal in grams."
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:172
+msgid "Purity (per 1000)"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:173
+msgid "Parts per thousand, e.g. 875 for 21K gold or 925 for sterling silver."
+msgstr ""
+
+#. translators: %s: currency symbol.
+#: includes/class-dmp-product-fields.php:178
+#, php-format
+msgid "Making charge per gram (%s)"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:179
+msgid "Workmanship cost added for each gram."
+msgstr ""
+
+#. translators: %s: currency symbol.
+#: includes/class-dmp-product-fields.php:183
+#, php-format
+msgid "Fixed charge (%s)"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:184
+msgid "Added once per item, e.g. for stones, chain or packaging."
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:187
+msgid "Markup (%)"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:188
+msgid "Percentage added on top of everything else."
+msgstr ""
+
+#. translators: %s: link to the metal prices settings page.
+#: includes/class-dmp-product-fields.php:248
+#, php-format
+msgid "Set today's price for this metal on the <a href=\"%s\">Metal prices</a> page to see the calculated price."
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:257
+msgid "Metal value"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:258
+msgid "Making charge"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:259
+msgid "Fixed charge"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:260
+msgid "Markup"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:269
+msgid "Price (after rounding)"
+msgstr ""
+
+#: includes/class-dmp-product-fields.php:271
+msgid "This is saved as the regular price every time you update the product or change the metal price."
+msgstr ""
+
+#: includes/class-dmp-settings.php:37 includes/class-dmp-settings.php:38 includes/class-dmp-settings.php:53 includes/class-dmp-settings.php:205
+msgid "Metal prices"
+msgstr ""
+
+#: includes/class-dmp-settings.php:145
+msgid "You are not allowed to change metal prices."
+msgstr ""
+
+#: includes/class-dmp-settings.php:209
+msgid "Enter today's price per gram of pure metal. Every product with Metal pricing filled in is repriced from it."
+msgstr ""
+
+#: includes/class-dmp-settings.php:216
+msgid "Today's prices"
+msgstr ""
+
+#. translators: %s: currency symbol.
+#: includes/class-dmp-settings.php:227
+#, php-format
+msgid "%s per gram"
+msgstr ""
+
+#. translators: %s: date and time.
+#: includes/class-dmp-settings.php:231
+#, php-format
+msgid "Last changed %s"
+msgstr ""
+
+#: includes/class-dmp-settings.php:238
+msgid "Use the price of pure metal (999 / 24K). Purity is applied per product. You can type numbers with Arabic digits."
+msgstr ""
+
+#: includes/class-dmp-settings.php:242
+msgid "Pricing rules"
+msgstr ""
+
+#: includes/class-dmp-settings.php:245
+msgid "Round prices to"
+msgstr ""
+
+#: includes/class-dmp-settings.php:247
+msgid "Rounding direction"
+msgstr ""
+
+#: includes/class-dmp-settings.php:248
+msgid "nearest"
+msgstr ""
+
+#: includes/class-dmp-settings.php:249
+msgid "always up"
+msgstr ""
+
+#: includes/class-dmp-settings.php:251
+msgid "For example 5 rounds 1,237 to 1,235 (or up to 1,240). Leave empty for no rounding."
+msgstr ""
+
+#: includes/class-dmp-settings.php:254
+msgid "Sale prices"
+msgstr ""
+
+#: includes/class-dmp-settings.php:256
+msgid "Keep them when repricing"
+msgstr ""
+
+#: includes/class-dmp-settings.php:257
+msgid "Remove them when repricing"
+msgstr ""
+
+#: includes/class-dmp-settings.php:259
+msgid "A sale price that ends up at or above the new regular price is always removed."
+msgstr ""
+
+#: includes/class-dmp-settings.php:266
+msgid "Save and update product prices"
+msgstr ""
+
+#: includes/class-dmp-settings.php:268
+msgid "Save without updating products"
+msgstr ""
+
+#: includes/class-dmp-settings.php:295
+msgid "Settings saved. Product prices were not changed."
+msgstr ""
+
+#. translators: %d: number of products.
+#: includes/class-dmp-settings.php:299
+#, php-format
+msgid "Settings saved. %d product is being repriced in the background."
+msgid_plural "Settings saved. %d products are being repriced in the background."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-dmp-settings.php:303
+msgid "Settings saved. No products use metal pricing yet. Open a product and fill in its Metal pricing tab."
+msgstr ""
+
+#. translators: 1: number of prices that changed, 2: number of products checked.
+#: includes/class-dmp-settings.php:307
+#, php-format
+msgid "Settings saved. %1$d price changed (%2$d products checked)."
+msgid_plural "Settings saved. %1$d prices changed (%2$d products checked)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-dmp-settings.php:329
+msgid "Last update"
+msgstr ""
+
+#. translators: 1: products done, 2: total products.
+#: includes/class-dmp-settings.php:335
+#, php-format
+msgid "Repricing in the background: %1$d of %2$d products done. Refresh this page to check progress."
+msgstr ""
+
+#. translators: 1: date and time, 2: number of prices that changed, 3: number of products checked.
+#: includes/class-dmp-settings.php:344
+#, php-format
+msgid "%1$s — %2$d price changed (%3$d products checked)."
+msgid_plural "%1$s — %2$d prices changed (%3$d products checked)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-dmp-settings.php:360
+msgid "How prices are calculated"
+msgstr ""
+
+#: includes/class-dmp-settings.php:362
+msgid "Metal value = price per gram × weight × purity ÷ 1000"
+msgstr ""
+
+#: includes/class-dmp-settings.php:363
+msgid "Add the making charge (per gram × weight) and the fixed charge"
+msgstr ""
+
+#: includes/class-dmp-settings.php:364
+msgid "Add the markup percentage"
+msgstr ""
+
+#: includes/class-dmp-settings.php:365
+msgid "Round, then save as the regular price"
+msgstr ""
+
+#: includes/class-dmp-settings.php:367
+msgid "Example: 5 g of 21K gold (purity 875) at 4,000 per gram is 17,500. With a making charge of 150 per gram (750) and 10% markup, the price is 20,075."
+msgstr ""
+
+#: includes/class-dmp-settings.php:385
+msgid "Price history"
+msgstr ""
+
+#: includes/class-dmp-settings.php:387
+msgid "Date"
+msgstr ""
+
+#: includes/class-dmp-settings.php:389
+msgid "Old price"
+msgstr ""
+
+#: includes/class-dmp-settings.php:390
+msgid "New price"
+msgstr ""
+
+#: includes/class-dmp-settings.php:391
+msgid "Changed by"
+msgstr ""
+
+#: includes/class-dmp-settings.php:396
+msgid "System"
+msgstr ""
+
+#: includes/functions.php:17
+msgid "Gold"
+msgstr ""
+
+#: includes/functions.php:18
+msgid "Silver"
+msgstr ""
+
+#: includes/functions.php:19
+msgid "Platinum"
+msgstr ""
+
+#: includes/functions.php:33
+msgid "24K"
+msgstr ""
+
+#: includes/functions.php:34
+msgid "22K"
+msgstr ""
+
+#: includes/functions.php:35
+msgid "21K"
+msgstr ""
+
+#: includes/functions.php:36
+msgid "18K"
+msgstr ""
+
+#: includes/functions.php:37
+msgid "14K"
+msgstr ""
+
+#: includes/functions.php:38
+msgid "10K"
+msgstr ""
+
+#: includes/functions.php:41
+msgid "Fine silver"
+msgstr ""
+
+#: includes/functions.php:42
+msgid "Sterling silver"
+msgstr ""
+
+#: includes/functions.php:43
+msgid "Coin silver"
+msgstr ""
+
+#: includes/functions.php:44
+msgid "Silver 800"
+msgstr ""
+
+#: includes/functions.php:47
+msgid "Platinum 950"
+msgstr ""
+
+#: includes/functions.php:48
+msgid "Platinum 900"
+msgstr ""

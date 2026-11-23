@@ -1,0 +1,104 @@
+/* Daily Metal Pricing — admin styles. Logical properties keep this correct in RTL (Arabic) admin. */
+
+.dmp-wrap .dmp-lead {
+	font-size: 14px;
+	max-width: 720px;
+}
+
+.dmp-wrap .dmp-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 4px 20px 12px;
+	margin-block: 16px;
+	max-width: 880px;
+}
+
+.dmp-wrap .dmp-card h2 {
+	font-size: 15px;
+	margin-block: 14px 4px;
+}
+
+.dmp-wrap .dmp-price-input {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	flex-wrap: wrap;
+}
+
+.dmp-wrap .dmp-unit {
+	color: #50575e;
+}
+
+/* Numbers stay left-to-right even in an RTL admin, so 1,250.50 never reads backwards. */
+.dmp-number {
+	direction: ltr;
+	text-align: start;
+	unicode-bidi: plaintext;
+}
+
+.dmp-wrap .dmp-actions .button {
+	margin-inline-end: 8px;
+}
+
+.dmp-wrap .dmp-formula ol {
+	margin-inline-start: 1.5em;
+}
+
+.dmp-wrap .dmp-history table {
+	margin-block-end: 8px;
+}
+
+/* Product editor */
+#dmp_metal_pricing_data .dmp-panel-intro {
+	color: #50575e;
+	margin-block-end: 0;
+}
+
+#dmp_metal_pricing_data .dmp-breakdown {
+	margin: 12px;
+	margin-inline-start: 162px;
+	border-collapse: collapse;
+	min-width: 260px;
+}
+
+#dmp_metal_pricing_data .dmp-breakdown th,
+#dmp_metal_pricing_data .dmp-breakdown td {
+	padding: 4px 8px;
+	text-align: start;
+	font-weight: 400;
+}
+
+#dmp_metal_pricing_data .dmp-breakdown td {
+	text-align: end;
+}
+
+#dmp_metal_pricing_data .dmp-breakdown-total th,
+#dmp_metal_pricing_data .dmp-breakdown-total td {
+	border-block-start: 1px solid #c3c4c7;
+	font-weight: 600;
+}
+
+#dmp_metal_pricing_data .dmp-breakdown-note,
+#dmp_metal_pricing_data .dmp-preview-empty {
+	margin-inline-start: 162px;
+	padding-inline-end: 12px;
+}
+
+.dmp-variation-fields {
+	clear: both;
+	border-block-start: 1px solid #eee;
+	padding-block-start: 4px;
+}
+
+.dmp-variation-fields .dmp-variation-price {
+	font-weight: 600;
+}
+
+@media screen and (max-width: 782px) {
+	#dmp_metal_pricing_data .dmp-breakdown,
+	#dmp_metal_pricing_data .dmp-breakdown-note,
+	#dmp_metal_pricing_data .dmp-preview-empty {
+		margin-inline-start: 12px;
+	}
+}
